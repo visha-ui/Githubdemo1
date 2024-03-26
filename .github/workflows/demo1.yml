@@ -29,7 +29,7 @@ jobs:
           curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: token " \
+            -H "Authorization: token "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" \
             -H "X-GitHub-Api-Version: 2024-01-28" \
             https://api.github.com/repos/visha-ui/GithubDemo2/dispatches \
             -d "{\"event_type\": \"$event_type\", \"client-payload\": {\"service\": \"$service\", \"version\": \"$version\", \"unit\": false, \"integration\": true}}"
