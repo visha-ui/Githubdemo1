@@ -30,4 +30,4 @@ jobs:
             -H "Authorization: token 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" \
             -H "X-GitHub-Api-Version: 2024-01-28" \
             https://api.github.com/repos/visha-ui/GithubDemo2/dispatches \
-            -d "{\"event_type\": \"$event_type\", \"client_payload\": {\"service\": \"$service\", \"version\": \"$version\", \"unit\": false, \"integration\": true}}"
+            -d "{\"event_type\": \"$event_type\", "client_payload": {"foo": "bar"} {\"service\": \"$service\", \"version\": \"$version\", \"unit\": false, \"integration\": true}}"
