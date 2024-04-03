@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Fire event
         run: |
-          curl -L \
+          curl -u \
           -X POST \
           -H "Accept: application/vnd.github+json" \
           -H "Authorization: Basic visha-ui:Vaishu@22032000" \
